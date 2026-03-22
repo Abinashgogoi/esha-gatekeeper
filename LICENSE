@@ -1,0 +1,34 @@
+ESHA GATEKEEPER LICENSE (EGL-1.0)
+
+Copyright (c) 2026 Abinash Gogoi (ESHA Hub)
+
+Permission is hereby granted to any person obtaining a copy
+of this software and associated documentation files (the "Software"),
+to use, copy, modify, and distribute the Software for personal,
+educational, and research purposes under the following conditions:
+
+1. Attribution Required:
+   You must give proper credit to the original author (Abinash Gogoi / ESHA Hub).
+
+2. No Direct Commercial Resale:
+   You are NOT allowed to sell this software as a standalone product
+   or repackage it for direct commercial resale without permission.
+
+3. Modification Allowed:
+   You may modify the Software, but must clearly mention changes.
+
+4. No Warranty:
+   The Software is provided "as is", without warranty of any kind.
+
+5. Security Responsibility:
+   The author is NOT responsible for any misuse, data leaks, or
+   security vulnerabilities caused by improper usage.
+
+6. Infrastructure Independence:
+   This Software does NOT include any cloud credentials, secrets,
+   or private infrastructure. Users must configure their own.
+
+For commercial licensing or collaboration:
+Contact: eshahub (official contact)
+
+END OF LICENSE
