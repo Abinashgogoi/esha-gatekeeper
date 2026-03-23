@@ -39,7 +39,7 @@ cd esha-gatekeeper
 
 # 2. Setup Virtual Environment  
 python -m venv venv  
-source venv/bin/activate  ** Windows: venv\Scripts\activate**
+'source venv/bin/activate'  **Windows: venv\Scripts\activate**
 
 # 3. Install Dependencies  
 pip install -r requirements.txt
@@ -78,13 +78,13 @@ JSON Response:
 📂 **Project Structure**
 '''text
 esha-gatekeeper/  
-├── main.py              # Application entry point (FastAPI)  
-├── Dockerfile           # Multi-stage container config  
-├── requirements.txt     # Pin-locked dependencies  
-├── config/              # Decision thresholds & provider configs  
-├── utils/               # Intent detection & weight scoring logic  
-├── docs/                # Extended documentation  
-└── .env.example         # Template for environment secrets
+├── main.py              **Application entry point (FastAPI)**  
+├── Dockerfile           **Multi-stage container config**  
+├── requirements.txt     **Pin-locked dependencies**  
+├── config/              **Decision thresholds & provider configs**  
+├── utils/               **Intent detection & weight scoring logic**  
+├── docs/                **Extended documentation**  
+└── .env.example         **Template for environment secrets**
 
 ☁️ **Cloud Deployment (GCP)**
 
@@ -121,4 +121,4 @@ gcloud run deploy esha-gatekeeper \
 
 Custom ESHA License. See LICENSE for details.
 
-This is the foundation for resilient hybrid AI systems. Built by ESHA Hub🚀
+This is the foundation for resilient hybrid AI systems. **Built by ESHA Hub🚀**
