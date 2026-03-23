@@ -39,7 +39,7 @@ cd esha-gatekeeper
 
 # 2. Setup Virtual Environment  
 python -m venv venv  
-source venv/bin/activate  # Windows: venv\Scripts\activate
+source venv/bin/activate  ** Windows: venv\Scripts\activate**
 
 # 3. Install Dependencies  
 pip install -r requirements.txt
