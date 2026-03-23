@@ -1,6 +1,6 @@
 ESHA Gatekeeper 🔒
 
-Lightweight Hybrid AI Dispatcher for Local \+ Cloud Systems
+Lightweight Hybrid AI Dispatcher for Local + Cloud Systems
 
 ESHA Gatekeeper is an intelligent orchestration layer designed to bridge the gap between local edge computing and high-performance cloud AI. It acts as a traffic controller, deciding in real-time where a request should be processed based on complexity, cost, and connectivity.
 
@@ -11,13 +11,13 @@ ESHA Gatekeeper is an intelligent orchestration layer designed to bridge the gap
 Modern AI applications suffer from high latency/cost in the cloud or limited reliability on the edge. ESHA Gatekeeper solves this via a Decision-First Architecture.
 
 * Normalize: Standardizing raw input JSON/Text.  
-* Detect: Regex \+ Weighted keyword intent scoring.  
+* Detect: Regex + Weighted keyword intent scoring.  
 * Score: Ranking task complexity vs. available compute.  
 * Route: Dispatching to the optimal execution layer.  
 * Fallback: Auto-migrate to local backup if cloud APIs fail.
 
 🏗️ Architecture
-
+'''text
 User Input → [ Gatekeeper Logic ] → [ Decision Engine ]  
                                             ↓  
                     ┌───────────────────────┴───────────────────────┐  
@@ -92,7 +92,7 @@ Submit a build to the Google Artifact Registry and deploy to Cloud Run:
 
 # 1. Build and push to Artifact Registry  
 gcloud builds submit \ 
-  \--tag asia-south1-docker.pkg.dev/PROJECT/esha-repo/esha-gatekeeper:latest
+  --tag asia-south1-docker.pkg.dev/PROJECT/esha-repo/esha-gatekeeper:latest
 
 # 2. Deploy to Cloud Run  
 gcloud run deploy esha-gatekeeper \ 
