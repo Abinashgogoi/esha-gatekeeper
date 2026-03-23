@@ -3,32 +3,49 @@ ESHA GATEKEEPER LICENSE (EGL-1.0)
 Copyright (c) 2026 Abinash Gogoi (ESHA Hub)
 
 Permission is hereby granted to any person obtaining a copy
-of this software and associated documentation files (the "Software"),
-to use, copy, modify, and distribute the Software for personal,
-educational, and research purposes under the following conditions:
+of this Software to use, copy, modify, and distribute it for
+personal, educational, and research purposes under the following conditions:
+
+## Definitions
+
+- "Software" refers to ESHA Gatekeeper source code and related files.
+- "User" refers to any individual or organization using the Software.
+- "Commercial Use" includes selling, licensing, or monetizing the Software.
+
+## Terms
 
 1. Attribution Required:
-   You must give proper credit to the original author (Abinash Gogoi / ESHA Hub).
+   You must include visible credit:
+   "Powered by ESHA Gatekeeper (Abinash Gogoi / ESHA Hub)"
 
-2. No Direct Commercial Resale:
-   You are NOT allowed to sell this software as a standalone product
-   or repackage it for direct commercial resale without permission.
+2. No Commercial Resale:
+   You may not sell, sublicense, or distribute the Software as a standalone product
+   or commercial offering without written permission.
 
 3. Modification Allowed:
-   You may modify the Software, but must clearly mention changes.
+   You may modify the Software, but must document changes in code or CHANGELOG.
 
 4. No Warranty:
    The Software is provided "as is", without warranty of any kind.
 
 5. Security Responsibility:
-   The author is NOT responsible for any misuse, data leaks, or
-   security vulnerabilities caused by improper usage.
+   The author is not responsible for misuse, data leaks, or vulnerabilities.
 
 6. Infrastructure Independence:
-   This Software does NOT include any cloud credentials, secrets,
-   or private infrastructure. Users must configure their own.
+   No credentials or private infrastructure are included.
+
+## Limitation of Liability
+
+The author shall not be liable for any damages arising from use of the Software.
+
+## Governing Law
+
+This license shall be governed by the laws of India.
+
+## Contact
 
 For commercial licensing or collaboration:
-Contact: eshahub (official contact)
+Email: info@eshahub.com
+GitHub: https://github.com/Abinashgogoi
 
 END OF LICENSE
