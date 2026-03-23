@@ -64,7 +64,7 @@ INFO:     Uvicorn running on [http://0.0.0.0:8080](http://0.0.0.0:8080) (Press C
 Testing the Health Endpoint:
 
 curl http://127.0.0.1:8080/health (http://0.0.0.0:8080/health)
-
+'''bash
 JSON Response:
 
 {  
@@ -76,7 +76,7 @@ JSON Response:
 }
 
 📂 **Project Structure**
-
+'''text
 esha-gatekeeper/  
 ├── main.py              # Application entry point (FastAPI)  
 ├── Dockerfile           # Multi-stage container config  
