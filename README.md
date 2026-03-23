@@ -34,7 +34,7 @@ User Input → [ Gatekeeper Logic ] → [ Decision Engine ]
 Execute the following commands in your terminal to initialize the environment:
 
 # 1. Clone the repository  
-git clone [https://github.com/esha-hub/esha-gatekeeper.git](https://github.com/esha-hub/esha-gatekeeper.git)  
+git clone https://github.com/Abinashgogoi/esha-gatekeeper.git  
 cd esha-gatekeeper
 
 # 2. Setup Virtual Environment  
@@ -121,4 +121,4 @@ gcloud run deploy esha-gatekeeper \
 
 Custom ESHA License. See LICENSE for details.
 
-This is the foundation for resilient hybrid AI systems. ##Built by ESHA Hub🚀
+This is the foundation for resilient hybrid AI systems. Built by ESHA Hub🚀
