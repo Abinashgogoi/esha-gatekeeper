@@ -47,7 +47,7 @@ pip install -r requirements.txt
 # 4. Configure Environment  
 cp .env.example .env
 
-⚡ Execution Feel
+⚡ **Execution Feel**
 
 Start the dispatcher and monitor real-time routing:
 
@@ -75,7 +75,7 @@ JSON Response:
   "uptime": "14h 22m"  
 }
 
-📂 Project Structure
+📂 **Project Structure**
 
 esha-gatekeeper/  
 ├── main.py              # Application entry point (FastAPI)  
@@ -86,7 +86,7 @@ esha-gatekeeper/
 ├── docs/                # Extended documentation  
 └── .env.example         # Template for environment secrets
 
-☁️ Cloud Deployment (GCP)
+☁️ **Cloud Deployment (GCP)**
 
 Submit a build to the Google Artifact Registry and deploy to Cloud Run:
 
@@ -100,7 +100,7 @@ gcloud run deploy esha-gatekeeper \
   --region asia-south1 \ 
   --no-allow-unauthenticated
 
-🔐 Configuration (.env)
+🔐 **Configuration (.env)**
 
 | Variable | Required | Description |
 | :---- | :---- | :---- |
@@ -110,15 +110,15 @@ gcloud run deploy esha-gatekeeper \
 
 [!IMPORTANT] Security Note: Never commit .env files to version control. Use a Secret Manager for production deployments.
 
-🛣️ Roadmap
+🛣️ **Roadmap**
 
 * [ ] **AWS Planner**: Multi-region resource planning.  
 * [ ] **Polyglot Routing**: Support for multi-language intent detection.  
 * [ ] **AI4Bharat**: Specific routing for Indian language models.  
 * [ ] **Native .gguf Support**: Direct loading of weights without sidecar engines.
 
-📜 License
+📜 **License**
 
 Custom ESHA License. See LICENSE for details.
 
-This is the foundation for resilient hybrid AI systems. Built by ESHA Hub🚀
+This is the foundation for resilient hybrid AI systems. ##Built by ESHA Hub🚀
